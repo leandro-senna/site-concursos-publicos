@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<profissoes>
+	<cargo>Analista de marketing</cargo>
+	<cargo>Assistente financeiro</cargo>
+	<cargo>Auxiliar de almoxarifado</cargo>
+	<cargo>Analista administrativo</cargo>
+	<cargo>Assistente administrativo</cargo>
+	<cargo>Agrônomo</cargo>
+	<cargo>Agricultor</cargo>
+	<cargo>Analista financeiro</cargo>
+	<cargo>Arquiteto</cargo>
+	<cargo>Assistente pessoal</cargo>
+	<cargo>Alfaiate</cargo>
+	<cargo>Auxiliar operacional</cargo>
+	<cargo>Advogado criminalista</cargo>
+	<cargo>Auxiliar de limpeza</cargo>
+	<cargo>Auditor fiscal</cargo>
+	<cargo>Analista de dados</cargo>
+	<cargo>Auxiliar de expedição</cargo>
+	<cargo>Auditor</cargo>
+	<cargo>Auxiliar financeiro</cargo>
+	<cargo>Assistente de recursos humanos</cargo>
+	<cargo>Auxiliar de Enfermagem</cargo>
+	<cargo>Analista de sistemas</cargo>
+	<cargo>Administrador</cargo>
+	<cargo>Astrônomo</cargo>
+	<cargo>Auxiliar de produção</cargo>
+	<cargo>Arqueólogo</cargo>
+	<cargo>Analista de produtos</cargo>
+	<cargo>Ator</cargo>
+	<cargo>Artista Visual</cargo>
+	<cargo>Advogado de contencioso cível</cargo>
+	<cargo>Artista cênico</cargo>
+	<cargo>Artista plástico</cargo>
+	<cargo>Auxiliar administrativo</cargo>
+	<cargo>Analista de processos</cargo>
+	<cargo>Advogado trabalhista</cargo>
+	<cargo>Assistente de marketing</cargo>
+	<cargo>Advogado</cargo>
+	<cargo>Advogado de família</cargo>
+	<cargo>Assistente comercial</cargo>
+	<cargo>Analista fiscal</cargo>
+	<cargo>Advogado empresarial</cargo>
+	<cargo>Auxiliar de cozinha</cargo>
+	<cargo>Advogado de contencioso tributário</cargo>
+	<cargo>Advogado do consumidor</cargo>
+	<cargo>Advogado previdenciário</cargo>
+	<cargo>Analista ambiental</cargo>
+	<cargo>Agente de saúde</cargo>
+	<cargo>Assistente social</cargo>
+	<cargo>Bartender</cargo>
+	<cargo>Bombeiro</cargo>
+	<cargo>Bancário</cargo>
+	<cargo>Biomédico</cargo>
+	<cargo>Biotecnólogo</cargo>
+	<cargo>Biólogo</cargo>
+	<cargo>Bombeiro civil</cargo>
+	<cargo>Business partner</cargo>
+	<cargo>Bibliotecário</cargo>
+	<cargo>Bioquímico</cargo>
+	<cargo>Cabeleireiro</cargo>
+	<cargo>Cientista da Computação</cargo>
+	<cargo>Cozinheiro</cargo>
+	<cargo>Cineasta</cargo>
+	<cargo>Compositor</cargo>
+	<cargo>Comprador</cargo>
+	<cargo>Cardiologista</cargo>
+	<cargo>Consultor de vendas</cargo>
+	<cargo>Coach</cargo>
+	<cargo>Cenógrafo</cargo>
+	<cargo>Cirurgião plástico</cargo>
+	<cargo>Cientista de dados</cargo>
+	<cargo>Comissário de bordo</cargo>
+	<cargo>Carteiro</cargo>
+	<cargo>Confeiteiro</cargo>
+	<cargo>Clínico geral</cargo>
+	<cargo>Corretor de imóveis</cargo>
+	<cargo>Corretor de seguros</cargo>
+	<cargo>Chefe de cozinha</cargo>
+	<cargo>Contabilista</cargo>
+	<cargo>Consultor financeiro</cargo>
+	<cargo>Coordenador pedagógico</cargo>
+	<cargo>Contador</cargo>
+	<cargo>Cerimonialista</cargo>
+	<cargo>Controller</cargo>
+	<cargo>Conselheiro tutelar</cargo>
+	<cargo>Cuidador de idosos</cargo>
+	<cargo>Designer de moda</cargo>
+	<cargo>Diplomata</cargo>
+	<cargo>Designer de joias</cargo>
+	<cargo>Desenhista Industrial</cargo>
+	<cargo>Designer de produtos</cargo>
+	<cargo>Designer de interiores</cargo>
+	<cargo>DPO (Data protection officer)</cargo>
+	<cargo>Desembargador</cargo>
+	<cargo>Desenvolvedor</cargo>
+	<cargo>DevOps</cargo>
+	<cargo>Despachante</cargo>
+	<cargo>Dentista</cargo>
+	<cargo>Desenhista</cargo>
+	<cargo>DBA (Administrador de Banco de Dados)</cargo>
+	<cargo>Desenvolvedor de software</cargo>
+	<cargo>Desenvolvedor de aplicativos</cargo>
+	<cargo>Designer de Games</cargo>
+	<cargo>Designer</cargo>
+	<cargo>Delegado</cargo>
+	<cargo>Designer gráfico</cargo>
+	<cargo>Engenheiro Acústico</cargo>
+	<cargo>Engenheiro elétrico</cargo>
+	<cargo>Engenheiro civil</cargo>
+	<cargo>Editor de texto</cargo>
+	<cargo>Eletricista</cargo>
+	<cargo>Engenheiro de segurança do trabalho</cargo>
+	<cargo>Engenheiro Aeroespacial</cargo>
+	<cargo>Endocrinologista</cargo>
+	<cargo>Engenheiro de mobilidade</cargo>
+	<cargo>Engenheiro biomédico</cargo>
+	<cargo>Encanador</cargo>
+	<cargo>Engenheiro de materiais</cargo>
+	<cargo>Engenheiro agrônomo</cargo>
+	<cargo>Estilista</cargo>
+	<cargo>Engenheiro de energia</cargo>
+	<cargo>Economista</cargo>
+	<cargo>Engenheiro Cartográfico</cargo>
+	<cargo>Engenheiro mecânico</cargo>
+	<cargo>Engenheiro de software</cargo>
+	<cargo>Engenheiro de pesca</cargo>
+	<cargo>Engenheiro naval</cargo>
+	<cargo>Engenheiro metalúrgico</cargo>
+	<cargo>Engenheiro de Controle e Automação</cargo>
+	<cargo>Esteticista</cargo>
+	<cargo>Especialista em e-commerce</cargo>
+	<cargo>Engenheiro florestal</cargo>
+	<cargo>Empresário</cargo>
+	<cargo>Engenheiro da computação</cargo>
+	<cargo>Engenheiro de telecomunicações</cargo>
+	<cargo>Engenheiro Mecatrônico</cargo>
+	<cargo>Engenheiro de inovação</cargo>
+	<cargo>Engenheiro ambiental</cargo>
+	<cargo>Engenheiro Eletrônico</cargo>
+	<cargo>Engenheiro robótico</cargo>
+	<cargo>Engenheiro físico</cargo>
+	<cargo>Engenheiro aeronáutico</cargo>
+	<cargo>Engenheiro de alimentos</cargo>
+	<cargo>Engenheiro de produção</cargo>
+	<cargo>Engenheiro químico</cargo>
+	<cargo>Embaixador</cargo>
+	<cargo>Enfermeiro</cargo>
+	<cargo>Estoquista</cargo>
+	<cargo>Fotógrafo</cargo>
+	<cargo>Fuzileiro naval</cargo>
+	<cargo>Figurinista</cargo>
+	<cargo>Fisioterapeuta</cargo>
+	<cargo>Filósofo</cargo>
+	<cargo>Fonoaudiólogo</cargo>
+	<cargo>Farmacêutico</cargo>
+	<cargo>Geógrafo</cargo>
+	<cargo>Gerente de projetos</cargo>
+	<cargo>Gestor de tecnologia da informação</cargo>
+	<cargo>Geriatra</cargo>
+	<cargo>Gerente administrativo</cargo>
+	<cargo>Gestor ambiental</cargo>
+	<cargo>Ginecologista</cargo>
+	<cargo>Gestor hospitalar</cargo>
+	<cargo>Headhunter</cargo>
+	<cargo>Historiador</cargo>
+	<cargo>Inspetor de qualidade</cargo>
+	<cargo>Ilustrador</cargo>
+	<cargo>Intérprete de libras</cargo>
+	<cargo>Jornalista</cargo>
+	<cargo>Jovem Aprendiz</cargo>
+	<cargo>Juiz</cargo>
+	<cargo>Mecânico de carro</cargo>
+	<cargo>Mecânico</cargo>
+	<cargo>Mestre cervejeiro</cargo>
+	<cargo>Maestro</cargo>
+	<cargo>Marinheiro</cargo>
+	<cargo>Museólogo</cargo>
+	<cargo>Motorista</cargo>
+	<cargo>Massoterapeuta</cargo>
+	<cargo>Militar</cargo>
+	<cargo>Médico</cargo>
+	<cargo>Neurologista</cargo>
+	<cargo>Nutricionista</cargo>
+	<cargo>Neuropsicólogo</cargo>
+	<cargo>Nutrólogo</cargo>
+	<cargo>Oftalmologista</cargo>
+	<cargo>Obstetra</cargo>
+	<cargo>Operador de telemarketing</cargo>
+	<cargo>Oficial de Justiça</cargo>
+	<cargo>Operador de caixa</cargo>
+	<cargo>Profissional de Linguística</cargo>
+	<cargo>Promotor de vendas</cargo>
+	<cargo>Psicólogo</cargo>
+	<cargo>Profissional de Dança</cargo>
+	<cargo>Projetista</cargo>
+	<cargo>Piloto de avião</cargo>
+	<cargo>Personal trainer</cargo>
+	<cargo>Professor</cargo>
+	<cargo>Profissional de Logística</cargo>
+	<cargo>Psicólogo do esporte</cargo>
+	<cargo>Psicólogo organizacional</cargo>
+	<cargo>Produtor de vídeo</cargo>
+	<cargo>Perito judicial</cargo>
+	<cargo>Programador</cargo>
+	<cargo>Pediatra</cargo>
+	<cargo>Pedagogo</cargo>
+	<cargo>Perito criminal</cargo>
+	<cargo>Psicólogo social</cargo>
+	<cargo>Profissional de help desk</cargo>
+	<cargo>Profissional de Facilities</cargo>
+	<cargo>Padeiro</cargo>
+	<cargo>Psiquiatra</cargo>
+	<cargo>Profissional de Relações Públicas</cargo>
+	<cargo>Publicitário</cargo>
+	<cargo>Profissional licenciado em Artes</cargo>
+	<cargo>Pizzaiolo</cargo>
+	<cargo>Podólogo</cargo>
+	<cargo>Proctologista</cargo>
+	<cargo>Promotor de justiça</cargo>
+	<cargo>Policial militar</cargo>
+	<cargo>Psicopedagogo</cargo>
+	<cargo>Personal stylist</cargo>
+	<cargo>Químico</cargo>
+	<cargo>Quiroprata</cargo>
+	<cargo>Radialista</cargo>
+	<cargo>Repórter</cargo>
+	<cargo>Roteirizador</cargo>
+	<cargo>Roteirista</cargo>
+	<cargo>Representante comercial</cargo>
+	<cargo>Recepcionista</cargo>
+	<cargo>Social Media</cargo>
+	<cargo>Serralheiro</cargo>
+	<cargo>Soldador</cargo>
+	<cargo>Taquígrafo</cargo>
+	<cargo>Terapeuta</cargo>
+	<cargo>Torneiro mecânico</cargo>
+	<cargo>Técnico em Radiologia</cargo>
+	<cargo>Técnico em edificações</cargo>
+	<cargo>Técnico em Segurança do Trabalho</cargo>
+	<cargo>Trader</cargo>
+	<cargo>Teólogo</cargo>
+	<cargo>Turismólogo</cargo>
+	<cargo>Técnico de Enfermagem</cargo>
+	<cargo>Técnico em informática</cargo>
+	<cargo>Terapeuta ocupacional</cargo>
+	<cargo>Urologista</cargo>
+	<cargo>UI designer</cargo>
+	<cargo>UX designer</cargo>
+	<cargo>Veterinário</cargo>
+	<cargo>Vigilante</cargo>
+	<cargo>Webmaster</cargo>
+	<cargo>Web designer</cargo>
+	<cargo>Zootecnista</cargo>
+</profissoes>

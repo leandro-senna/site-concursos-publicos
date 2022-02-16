@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Erasdemi";
+    src: url("../../font/erasdemi.ttf");
+}
+@font-face {
+	font-family: "Eraslightitc";
+	src: url("../../font/eraslightitc.ttf");
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font-family: Erasdemi, Eraslightitc, Verdana, Arial, Helvetica, sans-serif;
+}
+html {
+	background-color: #d6ccb2;
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-size: 62.5%;
+	line-height: 1.6;
+	height: 100%;
+	margin: 0 auto;
+}
+@media (max-width: 1370px) {body {width:100%}}
+@media (min-width: 1371px) {body {width:1360px}}
+header{
+	background: #e4e1c9;
+    background:-webkit-linear-gradient(to left, #d6ccb2, #e4e1c9, #d6ccb2);
+    background:-o-linear-gradient(to left, #d6ccb2, #e4e1c9, #d6ccb2);
+    background:-moz-linear-gradient(to left, #d6ccb2, #e4e1c9, #d6ccb2);
+    background:linear-gradient(to left, #d6ccb2, #e4e1c9, #d6ccb2);
+	background-size: cover;
+    position: fixed;
+	width: 100%;
+	height: 38px;
+	box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.5);
+	z-index: 5
+}
+header div#admin-box-logo {
+	position: absolute;
+	margin: 3px 5px
+}
+@media (min-width: 1371px) {header {width: 100%;left:50%;margin-left:-50%}}
+menu {
+    width: 640px;
+	height: 30px;
+	display: block;
+	margin: 3px auto;
+    list-style: none;
+}
+menu li a {
+    float: left;
+	display: block;
+    width: calc(100% / 5);
+    height: 30px;
+	border-radius: 2px;
+	padding-top: 5px;
+	border-right: groove 2px beige;
+    text-shadow: 0 0 5px white;
+    font-size: 1.3em;
+    color: maroon;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align:center;
+}
+menu li a:hover {
+	background-color: rgba(255,255,255,.3);
+    font-size: 1.34em;
+    color:red;
+	padding-top: 4px;
+}
+menu li a:active {
+    color: orange;
+}
+main {
+	float: left;
+	padding: 47px 7px 7px 7px;
+	z-index: 1
+}
+@media (max-width: 1370px) {main {width: 100%}}
+@media (min-width: 1371px) {main {width: 1360px}}
+body::-webkit-scrollbar {width: 2px}
+body::-webkit-scrollbar-thumb {border-radius: 3px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: firebrick;}
+body::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5);background-color: #F5F5F5}
+
+@media (max-width: 1370px) {aside#coluna-esquerda, aside#coluna-direita {display: none}}
+aside#coluna-esquerda,
+aside#coluna-direita {
+    background-color: rgba(255, 255, 255, 0.5);
+	position: fixed;
+	border: inset 1px beige;
+	box-shadow: inset 0 0 2px 0 gray;
+	height: calc(100% - 50px);
+	overflow-y: auto;
+	overflow-x: hidden;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+aside#coluna-esquerda {
+	width: calc((100% - 1374px)/2);
+	margin: 44px 0 0 6px;
+	left: 0;
+}
+aside#coluna-direita {
+	width: calc((100% - 1374px)/2);
+	left: 50%;
+	margin: 44px 0 0 680px
+}
+
+
+/*Travar tudo a aprtir de 640px*/

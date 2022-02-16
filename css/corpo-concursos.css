@@ -1,0 +1,389 @@
+@charset "UTF-8";
+h1 {
+    font-family: Eraslightitc;
+    font-size: 2.9em;
+	font-weight: bold;
+}
+h1 {
+	width:calc(100% - 20px);
+	line-height: 1;
+	margin: 10px 0 5px 8px;
+}
+p#sub-h1 {
+	font-family: Verdana;
+	font-size: 1.7em;
+	line-height: 1.3em;
+	font-style: oblique;
+	width: 100%;
+	border-bottom: inset 1px rgba(0,0,0,0.23);
+	padding: 0 10px 10px 9px;
+    text-align: justify;
+	display:block;
+	color: rgb(34, 34, 119);
+}
+@media (max-width:420px) {h1 {font-size: 2.3em}}
+@media (max-width: 700px) {h1, span#sub-h1 {text-align: center}}
+
+
+
+main,
+aside#col-principal {
+	height: 100%;
+	padding: 55px 0 7px 0;
+}
+
+main section {
+	background-color: white;
+	border: solid 1px silver;
+	padding: 12px 10px 10px 10px;
+	overflow-y: auto;
+}
+main section::-webkit-scrollbar {width: 0}
+main section::-webkit-scrollbar-thumb {border-radius: 3px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);background-color: firebrick;}
+main section::-webkit-scrollbar-track {border-left: solid 1px silver; background-color: #FFF}
+
+@media (max-width: 1000px) {
+	main {width: 100vw;padding: 55px 8px 7px 8px}
+	main section {width: calc(100vw - 16px);height: calc(100% - 52px)}/*Precisa ser width = vw para corrigir bug no resize*/
+	aside#col-principal, div#btns-provas-questoes {display: none}
+}
+@media (min-width: 1001px) and (max-width: 1200px) {
+	main {width: calc(100% - 274px); margin-left: 8px}
+	main section {width: 100%; height: calc(100% - 36px)}
+	aside#col-principal {width: 250px; right: 0; margin-right: 8px}
+}
+@media (min-width: 1201px) and (max-width: 1300px) {
+	main {width: calc(100% - 274px); margin-left: 8px}
+	main section {width: 100%; height: calc(100% - 36px)}
+	aside#col-principal {width: 250px; right: 0; margin-right: 8px}
+}
+@media (min-width: 1301px) and (max-width: 1370px) {
+	main {width: calc(100% - 324px); margin-left: 8px}
+	main section {width: 100%;height: calc(100% - 36px)}
+	aside#col-principal {width: 300px; right: 0; margin-right: 8px}
+}
+@media (min-width: 1371px) {
+	main {width: 1036px; margin-left: 8px}
+	main section {width: 100%;height: calc(100% - 36px)}
+	aside#col-principal {width: 300px; left: 50%; margin-left: 372px}
+}
+
+
+
+
+div#box-rt {
+	overflow: hidden;
+}
+
+button#btn-box-rt {
+	background: url("../imagens/lupa.png") center;
+	position: fixed;
+	width: 36px;
+	height: 36px;
+    cursor: pointer;
+	border-radius: 5px;
+}
+button#btn-box-rt:active {
+	box-shadow: 0 0 3px 0 white;
+}
+@media (max-width: 1000px) {
+	button#btn-box-rt {margin: 2px 0 0 10px}
+}
+
+@media (min-width: 1001px) {
+	button#btn-box-rt {display: none}
+}
+
+div#box-rt input {
+	float: left;
+	background-color: ghostwhite;	
+	width: 100%;
+	height: 34px;
+	border: solid 1px lightgray;
+	border-radius: 4px;
+	text-indent: 7px;
+}
+
+main nav {
+	height: 26px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+main nav table {
+	width: calc(100% + 5px);
+	height: 100%;
+	border-spacing: 3px 0;
+	margin-left: -3px;
+}
+main nav table tr td a{
+	font-family: Arial;
+	background-color: #3359cc;
+	display: block;
+	min-width: 28px;
+	padding-top: 2px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.25em;
+	color: #FFF;
+	text-decoration: none;
+}
+main nav table tr td a:hover {
+	background-color: #FFFFFF;
+	box-shadow: inset 0 0 1px 1px silver;
+	color: #3359cc;
+}
+main nav table tr td a:active {
+    color: gray;
+}
+
+main nav table tr td:nth-child(1) {width: 100px}
+	
+@media (max-width: 1000px) {
+	main nav {
+		margin-bottom: 1px;
+		height: 45px;
+		overflow-x:scroll;
+		overflow-y:hidden
+	}
+	main nav table {
+		background-color: #FFF;
+		box-shadow: inset 0 0 3px 0 black;
+		margin-left: 1px;
+		width: 1040px;
+		height: 38px;
+		border-spacing: 0;
+		padding: 4px 1px;
+	}
+	main nav table tr td a{
+		line-height: 28px;
+		margin-left: 3px;
+	}
+	main nav table tr td {float: left; width: 35px;}
+	main nav table tr td:nth-child(1) {width: 90px}
+	main nav::-webkit-scrollbar {height: 2px;background-color: white;}	
+	main nav::-webkit-scrollbar-thumb {border-radius: 3px;background-color: firebrick;}
+	main nav::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.5);background-color: white;}
+}
+
+
+
+div#btns-provas-questoes {
+	float: left;
+	width: calc(100% - 2px);
+	margin: 0 0 8px 1px;
+}
+div#btns-provas-questoes a {
+	font-family: Arial;
+	background-color: #3359cc;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+div#btns-provas-questoes a:nth-child(1) {width: calc(40% - 3px); float: left}
+div#btns-provas-questoes a:nth-child(2) {width: calc(60% - 3px); float: right}
+div#btns-provas-questoes a:hover {
+	background-color: #FFFFFF;
+	box-shadow: inset 0 0 1px 1px silver;
+	color: #3359cc;
+}
+div#btns-provas-questoes a:active {
+    color: silver;
+}
+@media (max-width: 1300px) {div#btns-provas-questoes a {font-size: 1.2em}}
+@media (min-width: 1301px) {div#btns-provas-questoes a {font-size: 1.4em}}
+
+
+
+
+
+
+
+
+
+div#container-cidade-cargo {
+	background-color: gainsboro;
+	float: left;
+	width: 100%;
+	height: calc(100% - 261px);
+}
+div#box-lcz-cidade, div#box-lcz-cargo {
+	background-color: #FFF;
+    border: solid 1px silver;
+	position: absolute;
+	margin-top: 28px;
+	padding: 7px;
+	width: 100%;
+	height: calc(100% - 351px);
+}
+div#container-cidade-cargo label {
+	background-color: #fff;
+    border: solid 1px silver;
+	border-bottom: none;
+	width: calc(100% + 16px);
+	line-height: 36px;
+	margin-top: -36px;
+    font-family: Eraslightitc;
+
+	font-size: 1.8em;
+
+	border-radius: 7px 7px 0 0;
+	text-align: center;
+	cursor: pointer;
+}
+div#container-cidade-cargo label:hover {
+	color: firebrick;
+}
+div#box-lcz-cidade label {
+	margin-left: -8px;
+	float: left;
+	color: maroon;
+	font-weight: bold;
+
+}
+div#box-lcz-cargo label {
+	background-color: #f2f2f2;
+	float: right;
+	margin-right: -8px;
+	color: #888;
+	font-weight: normal
+}
+div#box-lcz-cidade input,
+div#box-lcz-cargo input {
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 29px;
+	border-radius: 5px;
+	font-size: 1.4em;
+	text-indent: 7px;
+	margin-bottom: 7px;
+	border: solid 1px gainsboro;
+	outline: none;
+}
+
+div#container-cidade-cargo ul {
+	border: solid 1px gainsboro;
+	height: calc(100% - 36px);
+	padding: 4px;
+	overflow: auto;
+}
+div#container-cidade-cargo ul::-webkit-scrollbar {width: 0}
+div#container-cidade-cargo ul li {
+	background-color: #f2f2f2;
+	margin-bottom: 4px;
+	height: 28px;
+}
+ul#list-municipio-xml,
+ul#list-cargo-xml {
+	display: none;
+	overflow: auto;
+}
+ul#list-municipio-xml li a,
+ul#list-cargo-xml li a {
+	cursor: pointer;
+}
+div#container-cidade-cargo ul li a {
+	float: left;
+	width: 100%;
+	line-height: 28px;
+	color: #3359cc;
+	text-indent: 5px;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+div#container-cidade-cargo ul li a:hover {
+	background-color: #eee;
+}
+div#container-cidade-cargo ul li a:active {
+	color: blue;
+	background-color: #ddd;
+}
+
+/* opção modelo */
+
+
+
+
+
+
+
+
+
+/* exclusivo-ads */
+div#container-ads-section-topo {
+	width: 100%;
+	height: auto;
+	padding-bottom: 12px;
+	border-bottom: inset 1px silver;
+	margin-bottom: 5px;
+}
+div#box-ads-section-topo {
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px 0 gray;
+	display: block;
+	margin: 0 auto;
+}
+
+div#box-ads-flutuante {
+	background-color: #FFF;
+	border: solid 1px silver;
+}
+@media (max-width: 1000px) {
+	div#box-ads-flutuante {display: none}
+}
+@media (min-width: 1001px) and (max-width: 1370px) {
+	div#box-ads-flutuante {
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		margin: 0 8px 9px 0;
+		padding: 2px;
+	}
+}
+@media (min-width: 1371px){
+	div#box-ads-flutuante {
+		position: fixed;
+		left: 50%;
+		bottom: 0;
+		margin: 0 0 9px 372px;
+		padding: 2px;
+	}
+}
+@media (min-width: 1001px) and (max-width: 1300px) {
+	div#box-ads-flutuante {width: 250px; height: 250px;}
+}
+@media (min-width: 1301px) {
+	div#box-ads-flutuante {width: 300px; height: 250px;}
+}
+
+
+
+
+
+
+
+@media (max-width: 380px) {div#box-ads-section-topo {width: 234px;height: 60px}}
+@media (min-width: 381px) and (max-width: 550px) {div#box-ads-section-topo {width: 320px;height: 100px}}
+@media (min-width: 551px) and (max-width: 800px) {div#box-ads-section-topo {width: 468px;height: 60px}}
+@media (min-width: 801px) and (max-width: 1000px) {div#box-ads-section-topo {width: 728px;height: 90px}}
+@media (min-width: 1001px) and (max-width: 1100px) {div#box-ads-section-topo {width: 468px;height: 60px}}
+@media (min-width: 1101px) and (max-width: 1339px) {div#box-ads-section-topo {width: 728px;height: 90px}}
+@media (min-width: 1340px) {div#box-ads-section-topo {width: 970px;height: 90px}}
+
+/* DEFINITIVO. Medidas a serem definidas para o adsense */
+
+@media (min-width: 1001px) and (max-width: 1300px) {div#box-ads-flutuante {background: url('../imagens/adsense/ads-250x250.gif') no-repeat}}
+@media (min-width: 1301px) {div#box-ads-flutuante {background: url('../imagens/adsense/ads-300x250.gif') no-repeat}}
+
+@media (max-width: 380px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-234x60.gif') no-repeat}}
+@media (min-width: 381px) and (max-width: 550px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-320x100.gif') no-repeat}}
+@media (min-width: 551px) and (max-width: 800px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-468x60.gif') no-repeat}}
+@media (min-width: 801px) and (max-width: 1000px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-728x90.gif') no-repeat}}
+@media (min-width: 1001px) and (max-width: 1100px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-468x60.gif') no-repeat}}
+@media (min-width: 1101px) and (max-width: 1339px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-728x90.gif') no-repeat}}
+@media (min-width: 1340px) {div#box-ads-section-topo {background: url('../imagens/adsense/ads-970x90.gif') no-repeat}}
